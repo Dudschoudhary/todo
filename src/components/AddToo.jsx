@@ -8,7 +8,7 @@ function AddTodo() {
 
     const addTodoHandler = (e) => {
         e.preventDefault();
-        if (input.trim() === '') {
+        if (input.trim() === '' ) {
             alert("No Todo submitted. Please enter a valid todo.");
             return;
         }
